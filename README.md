@@ -17,3 +17,18 @@ git add .
 git commit -m "write a meaningful description"
 git push origin master
 ```
+
+# Run Locally:
+To test the project, run it as a server with a tool like `http-server`, you can install it with
+
+```bash
+npm install -g http-server
+```
+
+then you run the project with
+
+```bash
+http-server .
+```
+
+this will serve the project on `localhost:8080`
